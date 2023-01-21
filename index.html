@@ -6,18 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <title>Cifrador</title>
 </head>
 <body>
-    <header></header>
     <main>
+        <header>
+            <a href="https://www.aluracursos.com/"><img src="img/Logo.svg" alt="Logo de Alura"></a>
+        </header>
         <section class="zona-escritura">
-        </section>
-        <section class="botones">
+            <div class="area-texto">
+                <!-- <input type="text" name="" id="" placeholder="Ingrese su texto aquí"> -->
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
+                <p>&#128712; Solo letras mayúsculas y sin acentos.</p>
+            </div>
+            <div class="botones">
+                <button>Encriptar!</button>
+                <button>Desencriptar!</button>
+            </div>
         </section>
         <section class="zona-mensaje">
+            <div class="sin-mensaje">
+                <img class="img-buscador" src="img/Muñeco.svg" alt="Persona buscando">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
         </section>    
     </main>
-    <footer></footer>
+    <footer>
+        by Guillermo Castiglioni
+    </footer>
 </body>
 </html>
